@@ -202,6 +202,7 @@ function updateGallows() {
   // let gallows = document.getElementById("gallows-img");
   let incorrectAnswers = document.getElementById("incorrect-guesses").innerText;
   gallows_img.src = `/assets/images/gallows${incorrectAnswers}.jpeg`;
+  gallows_img.alt = `Hand-drawn gallows with the first ${incorrectAnswers} out of 10 parts`;
 }
 
 function gameWon() {
@@ -246,10 +247,10 @@ function gameLost() {
   }
 
   
-chooseWord();
-createAnswerArray();
-createKeyboard();
-updateGallows(); 
+  chooseWord();
+  createAnswerArray();
+  createKeyboard();
+  updateGallows(); 
 
 
 
