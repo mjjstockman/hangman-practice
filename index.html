@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="title">
+        <h1>HANGMAN</h1>
+    </div>
+
+    <div id="score-area">
+        Guesses Made: <span id="guesses-made">0</span>
+        Wrong Guesses: <span id="incorrect-guesses">0</span>
+        Letters Found: <span id="letters-found">0</span>
+    </div>
+
+    <div id="word-area">
+       word area
+    </div>
+
+    <div id="gallows-area">
+        <img id="gallows-img">
+     </div>
+
+     <div id="keyboard-area">
+        keyboard area
+     </div>
+
+     <div id="guess-area">
+        Enter Guess:
+        <span id="keyed-guess"></span>
+        <button id="submit-btn" onclick="checkKeyedGuess()">Enter</button>
+        <button id="clear-btn" onclick="clearGuess()">Clear Guess</button>
+    </div>
+
+     
+
+     <div id="guessed-area">
+        <p>Guessed Letters:</p>
+        <span id="guessed-letters"></span>
+    </div>
+
+     <div id="message-area">
+        
+     </div>
+
+     
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

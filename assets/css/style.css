@@ -1,0 +1,512 @@
+/* googe fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Browser resest */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* make 1rem be 10px so easier to calculate font sizes */
+html {
+    font-size: 62.5%;
+}
+
+
+body, button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+button {
+	font-size: 2em;
+	box-shadow:  0px 20px 30px -10px rgba(38, 57, 77);
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em;
+	transition: all .3s ease;
+	color: black;
+	border: 3px solid black;
+	padding: 0em 0.5em;
+	margin: 7px;
+}
+
+#submit-btn,
+#clear-btn {
+	font-size: 2rem;
+}
+/* button {
+	background: transparent;
+	transition: all .3s ease;
+	color: black;
+	font-size: 2rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em ;
+  }
+  */
+  
+.removeHover {
+ /* color: red; */
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+  button:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  } 
+
+  button:disabled {
+	  color: yellow;
+	  box-shadow: none;
+	  border: none;
+  }
+
+h1 {
+    font-size: 4rem;
+}
+
+#word-area {
+	/* float: left; */
+	width: 100%;
+	font-size: 5rem;
+	background-color: red;
+	text-align: center;
+}
+
+#score-area {
+	/* float: left; */
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: green;
+}
+
+#keyboard-area {
+	float: left;
+	/* clear: both; */
+	width: 50%;
+	background-color: pink;
+}
+
+#guessed-area {
+	font-size: 4rem;
+	background-color: blue;
+	width: 35%;
+	float: left;
+}
+
+#guess-area {
+	font-size: 4rem;
+	width: 20%;
+	background-color: yellow;
+	float: left;
+}
+
+
+#gallows-area {
+	/* clear: both; */
+	/* margin-right: 10%; */
+	/* width: 20%; */
+	background-color: brown;
+	float: left;
+}
+
+#message-area {
+	color: red;
+	font-size: 4rem;
+}
+/* #options-area {
+	clear: both;
+	text-align: center;
+	background-color: pink;
+} */
+
+/* googe fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Browser resest */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* make 1rem be 10px so easier to calculate font sizes */
+html {
+    font-size: 62.5%;
+}
+
+
+body, button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+button {
+	font-size: 2em;
+	box-shadow:  0px 20px 30px -10px rgba(38, 57, 77);
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em;
+	transition: all .3s ease;
+	color: black;
+	border: 3px solid black;
+	padding: 0em 0.5em;
+	margin: 7px;
+}
+
+#submit-btn,
+#clear-btn {
+	font-size: 2rem;
+}
+/* button {
+	background: transparent;
+	transition: all .3s ease;
+	color: black;
+	font-size: 2rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em ;
+  }
+  */
+  
+.removeHover {
+ /* color: red; */
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+  button:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  } 
+
+  button:disabled {
+	  color: yellow;
+	  box-shadow: none;
+	  border: none;
+  }
+
+h1 {
+    font-size: 4rem;
+}
+
+#word-area {
+	/* float: left; */
+	width: 100%;
+	font-size: 5rem;
+	background-color: red;
+	text-align: center;
+}
+
+#score-area {
+	/* float: left; */
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: green;
+}
+
+#keyboard-area {
+	float: left;
+	/* clear: both; */
+	width: 50%;
+	background-color: pink;
+}
+
+#guessed-area {
+	font-size: 4rem;
+	background-color: blue;
+	width: 35%;
+	float: left;
+}
+
+#guess-area {
+	font-size: 4rem;
+	width: 20%;
+	background-color: yellow;
+	float: left;
+}
+
+
+#gallows-area {
+	/* clear: both; */
+	/* margin-right: 10%; */
+	/* width: 20%; */
+	background-color: brown;
+	float: left;
+}
+
+#message-area {
+	color: red;
+	font-size: 4rem;
+}
+/* #options-area {
+	clear: both;
+	text-align: center;
+	background-color: pink;
+} */
+
+/* googe fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Browser resest */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* make 1rem be 10px so easier to calculate font sizes */
+html {
+    font-size: 62.5%;
+}
+
+
+body, button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+button {
+	font-size: 2em;
+	box-shadow:  0px 20px 30px -10px rgba(38, 57, 77);
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em;
+	transition: all .3s ease;
+	color: black;
+	border: 3px solid black;
+	padding: 0em 0.5em;
+	margin: 7px;
+}
+
+#submit-btn,
+#clear-btn {
+	font-size: 2rem;
+}
+/* button {
+	background: transparent;
+	transition: all .3s ease;
+	color: black;
+	font-size: 2rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em ;
+  }
+  */
+  
+.removeHover {
+ /* color: red; */
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+  button:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  } 
+
+  button:disabled {
+	  color: yellow;
+	  box-shadow: none;
+	  border: none;
+  }
+
+h1 {
+    font-size: 4rem;
+}
+
+#word-area {
+	/* float: left; */
+	width: 100%;
+	font-size: 5rem;
+	background-color: red;
+	text-align: center;
+}
+
+#score-area {
+	/* float: left; */
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: green;
+}
+
+#keyboard-area {
+	float: left;
+	/* clear: both; */
+	width: 50%;
+	background-color: pink;
+}
+
+#guessed-area {
+	font-size: 4rem;
+	background-color: blue;
+	width: 35%;
+	float: left;
+}
+
+#guess-area {
+	font-size: 4rem;
+	width: 20%;
+	background-color: yellow;
+	float: left;
+}
+
+
+#gallows-area {
+	/* clear: both; */
+	/* margin-right: 10%; */
+	/* width: 20%; */
+	background-color: brown;
+	float: left;
+}
+
+#message-area {
+	color: red;
+	font-size: 4rem;
+}
+/* #options-area {
+	clear: both;
+	text-align: center;
+	background-color: pink;
+} */
+
+/* googe fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Browser resest */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* make 1rem be 10px so easier to calculate font sizes */
+html {
+    font-size: 62.5%;
+}
+
+
+body, button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+button {
+	font-size: 2em;
+	box-shadow:  0px 20px 30px -10px rgba(38, 57, 77);
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em;
+	transition: all .3s ease;
+	color: black;
+	border: 3px solid black;
+	padding: 0em 0.5em;
+	margin: 7px;
+}
+
+#submit-btn,
+#clear-btn {
+	font-size: 2rem;
+}
+/* button {
+	background: transparent;
+	transition: all .3s ease;
+	color: black;
+	font-size: 2rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border-radius: 1em 3em 2em 5em/5em 2em 3em 2em ;
+  }
+  */
+  
+.removeHover {
+ /* color: red; */
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+  button:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  } 
+
+  button:disabled {
+	  color: yellow;
+	  box-shadow: none;
+	  border: none;
+  }
+
+h1 {
+    font-size: 4rem;
+}
+
+#word-area {
+	/* float: left; */
+	width: 100%;
+	font-size: 5rem;
+	background-color: red;
+	text-align: center;
+}
+
+#score-area {
+	/* float: left; */
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: green;
+}
+
+#keyboard-area {
+	float: left;
+	/* clear: both; */
+	width: 50%;
+	background-color: pink;
+}
+
+#guessed-area {
+	font-size: 4rem;
+	background-color: blue;
+	width: 35%;
+	float: left;
+}
+
+#guess-area {
+	font-size: 4rem;
+	width: 20%;
+	background-color: yellow;
+	float: left;
+}
+
+
+#gallows-area {
+	/* clear: both; */
+	/* margin-right: 10%; */
+	/* width: 20%; */
+	background-color: brown;
+	float: left;
+}
+
+#message-area {
+	color: red;
+	font-size: 4rem;
+}
+/* #options-area {
+	clear: both;
+	text-align: center;
+	background-color: pink;
+} */
+
